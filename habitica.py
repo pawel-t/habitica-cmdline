@@ -17,6 +17,7 @@ key = cfg['api']['key']
 
 headers = {"Content-Type":"application/json", "x-api-user": user, "x-api-key": key }
 
+task_list = {}
 
 def str2bool(v):
     if v.lower() in ('yes', 'true', 't', 'y', '1'):
